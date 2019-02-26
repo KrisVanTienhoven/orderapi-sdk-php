@@ -156,14 +156,4 @@ class StartRequest extends Request
 
         return $this;
     }
-
-    /**
-     * @param string $paymentMethod
-     *
-     * @return array
-     */
-    private function createPaymentElement($paymentMethod)
-    {
-        return ['paymentMethod' => strtoupper($paymentMethod)];
-    }
 }
