@@ -2,7 +2,6 @@
 
 namespace CMPayments\OrderApi\Requests;
 
-use App\User;
 use CMPayments\OrderApi\Requests\Elements\Merchant;
 
 /**

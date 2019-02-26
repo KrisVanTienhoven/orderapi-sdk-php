@@ -3,6 +3,7 @@
 namespace CMPayments\OrderApi\Requests;
 
 use CMPayments\OrderApi\Requests\Elements\DirectDebitPaymentInput;
+use CMPayments\OrderApi\Requests\Elements\InitialPaymentReference;
 use CMPayments\OrderApi\Requests\Elements\PaymentInput\AmexPaymentInput;
 use CMPayments\OrderApi\Requests\Elements\PaymentInput\BankTransferPaymentInput;
 use CMPayments\OrderApi\Requests\Elements\PaymentInput\ElvPaymentInput;
@@ -14,7 +15,7 @@ use CMPayments\OrderApi\Requests\Elements\PaymentInput\OfflinePaymentInput;
 use CMPayments\OrderApi\Requests\Elements\PaymentInput\PaypalPaymentInput;
 use CMPayments\OrderApi\Requests\Elements\PaymentInput\PointOfSalePaymentInput;
 use CMPayments\OrderApi\Requests\Elements\PaymentInput\VisaPaymentInput;
-use Mockery\Exception;
+use CMPayments\OrderApi\Requests\Elements\ShopperInfo;
 
 /**
  * Class StartRequest

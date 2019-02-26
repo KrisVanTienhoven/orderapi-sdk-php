@@ -2,7 +2,6 @@
 
 namespace CMPayments\OrderApi\Requests;
 
-use CMPayments\OrderApi\Requests\Elements\IdealAuthorizationResult;
 use CMPayments\OrderApi\Requests\Elements\KbcAuthorizationResult;
 use CMPayments\OrderApi\Requests\Elements\PaypalAuthenticationResult;
 use CMPayments\OrderApi\Requests\Elements\ThreeDomainSecureAuthenticationResult;

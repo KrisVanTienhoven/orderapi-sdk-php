@@ -2,6 +2,18 @@
 
 namespace CMPayments\OrderApi\Requests;
 
+use CMPayments\OrderApi\Requests\Elements\Address;
+use CMPayments\OrderApi\Requests\Elements\Amount;
+use CMPayments\OrderApi\Requests\Elements\Company;
+use CMPayments\OrderApi\Requests\Elements\InitialPaymentReference;
+use CMPayments\OrderApi\Requests\Elements\Invoice;
+use CMPayments\OrderApi\Requests\Elements\Item;
+use CMPayments\OrderApi\Requests\Elements\MenuPreferences;
+use CMPayments\OrderApi\Requests\Elements\Name;
+use CMPayments\OrderApi\Requests\Elements\PaymentPreference;
+use CMPayments\OrderApi\Requests\Elements\SalesPerson;
+use CMPayments\OrderApi\Requests\Elements\Shopper;
+
 /**
  * Class CaptureRequest
  *

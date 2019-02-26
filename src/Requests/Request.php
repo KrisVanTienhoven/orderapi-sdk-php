@@ -2,6 +2,7 @@
 
 namespace CMPayments\OrderApi\Requests;
 
+use CMPayments\OrderApi\Requests\Elements\Amount;
 use CMPayments\OrderApi\Requests\Elements\Merchant;
 
 /**

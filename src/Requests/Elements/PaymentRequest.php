@@ -10,11 +10,11 @@ namespace CMPayments\OrderApi\Requests\Elements;
  */
 class PaymentRequest
 {
-    /** @var PaymentPreferences */
+    /** @var PaymentPreference */
     private $initialPaymentReference;
 
     /**
-     * @return PaymentPreferences
+     * @return PaymentPreference
      */
     public function getInitialPaymentReference()
     {
@@ -22,7 +22,7 @@ class PaymentRequest
     }
 
     /**
-     * @param PaymentPreferences $initialPaymentReference
+     * @param PaymentPreference $initialPaymentReference
      *
      * @return $this
      */
